@@ -17,13 +17,13 @@
 		
 		<!-- 3 hyperlinks, 'cause I'm lazy and don't like facebook :D -->
 		<p>
-			<ul>
+			<ul> <!-- unordered list -->
 				<li><a href = "http://www.google.com">Google</a></li>
 				<li><a href = "http://www.twitch.tv">Twitch</a>
-					<ul>	
+					<ul>	<!-- nested -->
 						<li>Google</li>
 						<li>Twitch
-							<ol>	
+							<ol>	<!-- ordered -->
 								<li>Google</li>
 								<li>Twitch</li>
 								<li>Twitter</li>
@@ -50,6 +50,48 @@
 						alt = "Misia - the little cat">
 				</a>
 			</center>
+		</p>
+		<hr>
+		<p>
+			<h1>Tables</h1>
+			<table border = "1" width = "200">
+				<caption>
+					A table. What else do you expect? 
+					First column is names, second is numbers, prices maybe?
+				</caption>
+				<thead>
+					<tr> <!-- table row -->
+						<th>Name</th> <!-- table heading cell -->
+						<th>Price</th>
+					</tr>
+				</thead>
+				
+				<tfoot> <!-- footer -->
+					<tr>
+						<th>Total</th>
+						<th>$3.75</th>
+					</tr>
+				</tfoot>
+				
+				<tbody>
+					<tr>
+						<td>Apple</td>
+						<td>$0.25</td>
+					</tr>
+					<tr>
+						<td>Orange</td>
+						<td>$0.50</td>
+					</tr>
+					<tr>
+						<td>Banana</td>
+						<td>$1.00</td>
+					</tr>
+					<tr>
+						<td>Pineapple</td>
+						<td>$2.00</td>
+					</tr>
+				</tbody>
+			</table>
 		</p>
 	</body>
 </html> <!-- end tag -->
