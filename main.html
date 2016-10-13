@@ -16,13 +16,82 @@
 		<p>Seriously...</p>
 		
 		<!-- 3 hyperlinks, 'cause I'm lazy and don't like facebook :D -->
-		<p><a href = "http://www.google.com">Google</a></p> <!-- a - anchor, href - hypertext reference -->
-		<p><a href = "http://www.twitch.tv">Twitch</a></p>
-		<p><a href = "http://www.twitter.com">Twitter</a></p>
 		<p>
-			Now, just for fun, let's check
-			how anchors to a <a href = "mailto:212791@student.pwr.edu.pl">MAIL</a> work... 
+			<ul> <!-- unordered list -->
+				<li><a href = "http://www.google.com">Google</a></li>
+				<li><a href = "http://www.twitch.tv">Twitch</a>
+					<ul>	<!-- nested -->
+						<li>Google</li>
+						<li>Twitch
+							<ol>	<!-- ordered -->
+								<li>Google</li>
+								<li>Twitch</li>
+								<li>Twitter</li>
+							</ol>
+						</li>
+						<li>Twitter</li>
+					</ul>
+				</li>
+				<li><a href = "http://www.twitter.com">Twitter</a></li>
+			</ul>
+		<p>
+			<del>Now, just <sub>for</sub> fun, let's check</del>
+			how <sup>anchors</sup> to a <a href = "mailto:212791@student.pwr.edu.pl">MAIL</a> work... 
 			You can click it. Honest! 
+			Good day &amp; &apos;ight!
+		</p>
+		<hr>
+		<p>
+			<center>
+				&trade;
+				<br>
+				<a href = "http://www.google.com">
+					<img src = "misia.jpg" width = "785" height = "600"
+						alt = "Misia - the little cat">
+				</a>
+			</center>
+		</p>
+		<hr>
+		<p>
+			<h1>Tables</h1>
+			<table border = "1" width = "200">
+				<caption>
+					A table. What else do you expect? 
+					First column is names, second is numbers, prices maybe?
+				</caption>
+				<thead>
+					<tr> <!-- table row -->
+						<th>Name</th> <!-- table heading cell -->
+						<th>Price</th>
+					</tr>
+				</thead>
+				
+				<tfoot> <!-- footer -->
+					<tr>
+						<th>Total</th>
+						<th>$3.75</th>
+					</tr>
+				</tfoot>
+				
+				<tbody>
+					<tr>
+						<td>Apple</td>
+						<td>$0.25</td>
+					</tr>
+					<tr>
+						<td>Orange</td>
+						<td>$0.50</td>
+					</tr>
+					<tr>
+						<td>Banana</td>
+						<td>$1.00</td>
+					</tr>
+					<tr>
+						<td>Pineapple</td>
+						<td>$2.00</td>
+					</tr>
+				</tbody>
+			</table>
 		</p>
 	</body>
 </html> <!-- end tag -->
