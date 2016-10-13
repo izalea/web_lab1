@@ -1,0 +1,4 @@
+Animacje 2d w œrodowisku Adobe Flash.
+Zapoznaæ siê z zadanie z za³¹cznika. Nale¿y po³¹czyæ dwie konwencje programowania – w œrodowisku interaktywnym (animacje wykonane s¹ na linii czasu) oraz w ActionScript 3.0 (interakcja jest zrealizowana w postaci kodu).     
+Oprogramowane s¹ dwa "przejœcia" (animacje) dla przycisków 1 i 2 (licz¹c od lewej strony). Rozwi¹zanie zadania polega na oprogramowaniu wszystkich, mo¿liwych dla czterech przycisków, animacji.
+Animacje zrealizowane s¹ w postaci Movie Clip na linii czasu.
